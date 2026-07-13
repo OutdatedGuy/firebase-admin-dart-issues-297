@@ -1,0 +1,29 @@
+{
+  "functions": [
+    {
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "source": "functions"
+    },
+    {
+      "source": "dartfunctions",
+      "codebase": "dartfunctions",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        ".dart_tool",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "runtime": "dart3"
+    }
+  ]
+}
