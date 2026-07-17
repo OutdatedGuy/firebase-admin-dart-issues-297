@@ -172,11 +172,10 @@ packages:
   firebase_admin_sdk:
     dependency: "direct main"
     description:
-      path: "packages/firebase_admin_sdk"
-      ref: "0eb09ac86e30f5fb0e2a91814984045d0b13801d"
-      resolved-ref: "0eb09ac86e30f5fb0e2a91814984045d0b13801d"
-      url: "https://github.com/firebase/firebase-admin-dart.git"
-    source: git
+      name: firebase_admin_sdk
+      sha256: b17f129ecb0ee2c0523f7441f6f40bfbc8ffcf9fb58fe9e4b0dbe1255969ba4d
+      url: "https://pub.dev"
+    source: hosted
     version: "0.5.3"
   firebase_functions:
     dependency: "direct main"
@@ -211,12 +210,13 @@ packages:
     source: hosted
     version: "0.5.0"
   google_cloud_firestore:
-    dependency: transitive
+    dependency: "direct overridden"
     description:
-      name: google_cloud_firestore
-      sha256: "2ef311299694771e677c5285cac27f30bdba174f3119001b3fae39e546042fce"
-      url: "https://pub.dev"
-    source: hosted
+      path: "packages/google_cloud_firestore"
+      ref: "0eb09ac86e30f5fb0e2a91814984045d0b13801d"
+      resolved-ref: "0eb09ac86e30f5fb0e2a91814984045d0b13801d"
+      url: "https://github.com/firebase/firebase-admin-dart.git"
+    source: git
     version: "0.5.2"
   google_cloud_firestore_v1:
     dependency: transitive
@@ -450,6 +450,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.0"
+  retry:
+    dependency: transitive
+    description:
+      name: retry
+      sha256: "822e118d5b3aafed083109c72d5f484c6dc66707885e07c0fbcb8b986bba7efc"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
   shelf:
     dependency: transitive
     description:

@@ -11,10 +11,10 @@ dependencies:
   firebase_functions: ^0.6.0
 
 dependency_overrides:
-  firebase_admin_sdk:
+  google_cloud_firestore:
     git:
       url: https://github.com/firebase/firebase-admin-dart.git
-      path: packages/firebase_admin_sdk
+      path: packages/google_cloud_firestore
       ref: 0eb09ac86e30f5fb0e2a91814984045d0b13801d
 
 dev_dependencies:
